@@ -1,0 +1,17 @@
+@prefix : <urn:ex:>.
+#@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:a :preparedBefore :b .
+:b :preparedBefore :c .
+:c :preparedBefore :d .
+
+:a :preparedBefore :e .
+:e :preparedBefore :f .
+:f :preparedBefore :g .
+
+:h :preparedBefore :i .
+:i :preparedBefore :j .
+:j :preparedBefore :k .
+:k :preparedBefore :l .
+
+#:preparedBefore a owl:TransitiveProperty .
